@@ -1,0 +1,286 @@
+/* ----- STYLES ----- */
+
+
+*{
+    color: #363636;
+    font-family: "Open Sans";
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    border-top: 3px solid #7e4a7c;
+}  
+
+ul{list-style: none;}
+
+a{text-decoration: none;}
+
+h1, h2, h3, nav a, .button{font-family: "Economica", sans-serif;}
+
+h1{ 
+    font-size: 50px;
+    text-align: center;
+    color:#7e4a7c;
+    margin-bottom: 50px;    
+}
+
+h2{
+    font-size: 40px;
+    color: #b878b5;
+    margin-top: 0;
+}
+
+h3{
+    margin-top: 0;
+    font-size: 30px;
+    color:#7e4a7c;
+}
+
+nav a{font-size: 24px;}
+
+.button{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #7e4a7c;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid #7e4a7c;
+}
+
+.button:hover{
+    padding: 10px;
+    background-color: #fff;
+    color: #7e4a7c;
+    border: 1px solid #7e4a7c;
+}
+
+.submit{font-size: 25px;}
+
+footer p{font-size: 14px;}
+
+i{
+    color: #7e4a7c;
+    font-weight: 700;
+}
+
+
+
+/* CONTENU */
+
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{text-align: center;}
+
+
+
+/* ----- NAV ----- */
+
+
+
+nav{
+    z-index: 5;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #7e4a7c;
+    padding: 20px;
+    gap: 1%;
+    box-sizing: border-box;
+
+}
+
+nav li a{
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+nav li a:hover{
+    padding: 10px;
+    background-color: #fff;
+    color: #7e4a7c;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ----- ABOUT ----- */
+
+
+
+
+#about{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+#about img, .abouttext, .whyus{width: 33%;}
+
+.abouttext{text-align: left;}
+
+
+.whyus h3{padding-left: 15px;}
+
+.whyus li{
+    list-style-image: url("../images/puce-fleche.png");
+    padding: 8px;
+}
+
+
+
+
+/* ----- STAFF ----- */
+
+
+
+
+
+.teachers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.teacher{
+    display: flex;
+    width: 48%;
+    gap: 1%;
+    margin-bottom: 50px;
+}
+
+
+/* ----- CLASSES ----- */
+
+
+
+#classes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+table{border-collapse: collapse;}
+
+table td, table th, table tr{ 
+    text-align: center;
+    border: 1px solid #b878b5;
+    padding: 10px;
+}
+
+table th{
+    background-color: #7e4a7c;
+    color: #fff;
+}
+
+table td{ width: 200px;}
+
+table td:first-child{font-weight: 700;}
+
+/*table tr:nth-child(5) td:nth-child(2), table tr:nth-child(3) td:nth-child(3), table tr:nth-child(6) td:nth-child(4), table tr:nth-child(2) td:nth-child(5) {*/
+/*    background-color: #ffeefe;*/
+/*}*/
+
+.empty{background-color: #ffeefe;}
+
+
+
+
+/* ----- PLANNING ----- */
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #7e4a7c;
+    padding: 20px;
+}
+
+form label{
+    color:  #7e4a7c;
+    font-weight: 700;
+}
+
+.contactform{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffeefe;
+    margin: 20px 0;
+    padding: 20px;
+    gap: 150px;
+    flex-wrap: nowrap;
+}
+
+.inputs label{width: 50%;}
+
+.inputs input{
+    width: 300px;
+    border: .5px solid #7e4a7c;
+}
+
+.selects label{width: 33%;}
+
+.selects select{
+    width: 200px;
+    border: .5px solid #7e4a7c;
+    background-color: #fff;
+}
+
+.bouton{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* ----- RESEAUX ----- */
+
+
+.reseaux{
+    margin-top: 50px;
+    background-color: #7e4a7c;
+    padding: 10px;
+    text-align: center;
+}
+
+.reseaux .fa-brands{
+    margin-right: 20px;
+    color: #fff;
+}
+
+
+/* ----- FOOTER ----- */
+
+footer{
+    text-align: center;
+    background-color:#383838;
+    padding: 10px;
+
+}
+footer p{color: #fff;}
+
+footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+
